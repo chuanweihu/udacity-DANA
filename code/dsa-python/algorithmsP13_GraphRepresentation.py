@@ -36,12 +36,25 @@ class Graph(object):
         from_found.edges.append(new_edge)
         to_found.edges.append(new_edge)
         self.edges.append(new_edge)
-
+  
     def get_edge_list(self):
         """Don't return a list of edge objects!
         Return a list of triples that looks like this:
         (Edge Value, From Node Value, To Node Value)"""
-        return []
+        
+        edge_lists = []
+        for edge in self.edges:
+            edge_set = (edge.value, edge.node_from.value, edge.node_to.value)
+            edge_lists.append(edge_set)
+        return edge_lists
+
+    def find_max_index(self):
+        max_index = -1
+        if len(self.nodes):
+            for node in self.nodes:
+                if node.value > max_index:
+                    max_index = node.value
+        return max_index
 
     def get_adjacency_list(self):
         """Don't return any Node or Edge objects!
@@ -51,15 +64,29 @@ class Graph(object):
         Each section in the list will store a list
         of tuples that looks like this:
         (To Node, Edge Value)"""
-        return []
-    
+        
+        max_index = self.find_max_index()
+        adj_lists = [None] * (max_index+1)
+        for edge in self.edges:
+            if adj_lists[edge.node_from.value]:
+                adj_lists[edge.node_from.value].append((edge.node_to.value, edge.value))
+            else:
+                adj_lists[edge.node_from.value] = [(edge.node_to.value, edge.value)]
+        return adj_lists
+        
+ 
     def get_adjacency_matrix(self):
         """Return a matrix, or 2D list.
         Row numbers represent from nodes,
         column numbers represent to nodes.
         Store the edge values in each spot,
         and a 0 if no edge exists."""
-        return []
+
+        max_index = self.find_max_index()
+        adj_matrices = [[0 for i in range(max_index+1)] for j in range(max_index+1)]
+        for edge in self.edges:
+            adj_matrices[edge.node_from.value][edge.node_to.value] = edge.value
+        return adj_matrices
 
 graph = Graph()
 graph.insert_edge(100, 1, 2)
