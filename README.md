@@ -11,22 +11,38 @@ There are several files which I've learned from Udacity data analysis NanoDegree
 ├── README.md
 ├── code
 │   └── dsa-python
-│       ├── algorithmsP1.py
-│       ├── algorithmsP2.py
-│       ├── algorithmsP3.py
-│       └── algorithmsP4.py
+│       ├── algorithmsP10_StringKeys.py
+│       ├── algorithmsP11_BinaryTree.py
+│       ├── algorithmsP12_BinarySearchTree.py
+│       ├── algorithmsP13_GraphRepresentation.py
+│       ├── algorithmsP14_GraphTraversal.py
+│       ├── algorithmsP1_RepeatStrings.py
+│       ├── algorithmsP2_LinkedList.py
+│       ├── algorithmsP3_Stack.py
+│       ├── algorithmsP4_Queue.py
+│       ├── algorithmsP5_BinarySearch.py
+│       ├── algorithmsP6_FibonacciSequence.py
+│       ├── algorithmsP7_BubbleSort.py
+│       ├── algorithmsP8_QuickSort.py
+│       └── algorithmsP9_Dictionaries.py
 └── project
-    └── p1-explore_weather_trends
-        ├── README.md
-        ├── data
-        │   ├── city_data.csv
-        │   ├── city_list.csv
-        │   └── global_data.csv
-        ├── doc
-        │   ├── explore_weather_trends.html
-        │   └── explore_weather_trends.ipynb
-        └── images
-            └── line_chart_trends.png
+    ├── p1-explore_weather_trends
+    │   ├── README.md
+    │   ├── data
+    │   │   ├── city_data.csv
+    │   │   ├── city_list.csv
+    │   │   └── global_data.csv
+    │   ├── doc
+    │   │   ├── explore_weather_trends-plus.ipynb
+    │   │   ├── explore_weather_trends.html
+    │   │   └── explore_weather_trends.ipynb
+    │   └── images
+    │       └── line_chart_trends.png
+    └── p2-wikipedia_web_rawl
+        └── doc
+            └── wikipedia_web_rawl.ipynb
+
+9 directories, 24 files
 ```
 
 ## Code
