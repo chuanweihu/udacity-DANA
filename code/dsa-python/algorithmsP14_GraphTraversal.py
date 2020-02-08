@@ -94,7 +94,8 @@ class Graph(object):
         def map_conversion(adjacency_list_for_node):
             if adjacency_list_for_node is None:
                 return None
-            return [item for item in map(convert_to_names, adjacency_list_for_node)]
+            return [item for item in map(convert_to_names, 
+                    adjacency_list_for_node)]
         return [map_conversion(adjacency_list_for_node)
                 for adjacency_list_for_node in adjacency_list]
 
@@ -244,13 +245,16 @@ pp.pprint(graph.dfs_names(2))
 
 # Should print:
 # Depth First Search
-# ['London', 'Shanghai', 'Mountain View', 'San Francisco', 'Berlin', 'Sao Paolo']
+# ['London', 'Shanghai', 'Mountain View', 'San Francisco', 'Berlin', 
+#   'Sao Paolo']
 
 print("\nBreadth First Search")
 pp.pprint(graph.bfs_names(2))
 # test error reporting
-# pp.pprint(['Sao Paolo', 'Mountain View', 'San Francisco', 'London', 'Shanghai', 'Berlin'])
+# pp.pprint(['Sao Paolo', 'Mountain View', 'San Francisco', 'London', 
+#           'Shanghai', 'Berlin'])
 
 # Should print:
 # Breadth First Search
-# ['London', 'Shanghai', 'Berlin', 'Sao Paolo', 'Mountain View', 'San Francisco']
+# ['London', 'Shanghai', 'Berlin', 'Sao Paolo', 'Mountain View', 
+#   'San Francisco']
