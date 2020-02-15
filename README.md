@@ -37,7 +37,9 @@ There are several files which I've learned from Udacity data analysis NanoDegree
 │   ├── P04M01L08.pdf
 │   ├── P04M01L09.pdf
 │   ├── P04M01L10.pdf
-│   └── P04M01L11.pdf
+│   ├── P04M01L11.pdf
+│   ├── P04M01L12-1.pdf
+│   └── P04M01L12-2.pdf
 ├── notebook
 │   ├── Part\ 04-Module\ 01-Lesson\ 10_Sampling\ distributions\ \ and\ the\ Central\ Limit\ Theorem-ipynb
 │   │   ├── 09.\ Notebook\ +\ Quiz\ Sampling\ Distributions\ \ Python.ipynb
@@ -58,8 +60,12 @@ There are several files which I've learned from Udacity data analysis NanoDegree
 │       ├── 14.\ Video:\ Simulating\ from\ the\ Null.ipynb
 │       ├── 15.\ Notebook\ +\ Quiz\ Simulating\ from\ the\ Null.ipynb
 │       ├── 17.\ Video\ Calculating\ the\ p-value.ipynb
+│       ├── 23.\ Notebook\ +\ Quiz\ Drawing\ Conclusions.ipynb
+│       ├── 27.\ Notebook\ +\ Quiz\ Other\ Things\ to\ Consider.ipynb
+│       ├── 28.\ Notebook\ +\ Quiz\ Other\ Things\ to\ Consider.ipynb
 │       ├── coffee_dataset.csv
 │       ├── judicial_dataset_predictions.csv
+│       ├── judicial_dataset_pvalues.csv
 │       └── parachute_dataset.csv
 └── project
     ├── p1-explore_weather_trends
@@ -78,7 +84,7 @@ There are several files which I've learned from Udacity data analysis NanoDegree
         └── doc
             └── wikipedia_web_rawl.ipynb
 
-14 directories, 55 files
+14 directories, 61 files
 ```
 
 ## Code
