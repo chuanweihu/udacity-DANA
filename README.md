@@ -34,7 +34,33 @@ There are several files which I've learned from Udacity data analysis NanoDegree
 │   ├── P04M01L06.pdf
 │   ├── P04M01L07-1.pdf
 │   ├── P04M01L07-2.pdf
-│   └── P04M01L08.pdf
+│   ├── P04M01L08.pdf
+│   ├── P04M01L09.pdf
+│   ├── P04M01L10.pdf
+│   └── P04M01L11.pdf
+├── notebook
+│   ├── Part\ 04-Module\ 01-Lesson\ 10_Sampling\ distributions\ \ and\ the\ Central\ Limit\ Theorem-ipynb
+│   │   ├── 09.\ Notebook\ +\ Quiz\ Sampling\ Distributions\ \ Python.ipynb
+│   │   ├── 13.\ Quiz\ Notation.ipynb
+│   │   ├── 16.\ Notebook\ +\ Quiz\ Law\ of\ Large\ Numbers.ipynb
+│   │   ├── 18.\ Notebook\ +\ Quiz\ Central\ Limit\ Theorem.ipynb
+│   │   ├── 19.\ Notebook\ +\ Quiz\ Central\ Limit\ Theorem\ -\ Part\ II.ipynb
+│   │   ├── 21.\ Notebook\ +\ Quiz\ Central\ Limit\ Theorem\ -\ Part\ III.ipynb
+│   │   └── 24.\ Notebook\ +\ Quiz\ Bootstrapping.ipynb
+│   ├── Part\ 04-Module\ 01-Lesson\ 11_Confidence\ Intervals-ipynb
+│   │   ├── 03.\ ScreenCast\ Sampling\ Distributions\ and\ Confidence\ Intervals.ipynb
+│   │   ├── 04.\ Notebook\ +\ Quiz\ Building\ Confidence\ Intervals.ipynb
+│   │   ├── 05.\ ScreenCast\ Difference\ In\ Means.ipynb
+│   │   ├── 06.\ Notebook\ +\ Quiz\ Difference\ in\ Means.ipynb
+│   │   ├── 11.\ Traditional\ vs.\ Bootstrapping\ Confidence\ Intervals.ipynb
+│   │   └── coffee_dataset.csv
+│   └── Part\ 04-Module\ 01-Lesson\ 12_Hypothesis\ Testing-ipynb
+│       ├── 14.\ Video:\ Simulating\ from\ the\ Null.ipynb
+│       ├── 15.\ Notebook\ +\ Quiz\ Simulating\ from\ the\ Null.ipynb
+│       ├── 17.\ Video\ Calculating\ the\ p-value.ipynb
+│       ├── coffee_dataset.csv
+│       ├── judicial_dataset_predictions.csv
+│       └── parachute_dataset.csv
 └── project
     ├── p1-explore_weather_trends
     │   ├── README.md
@@ -52,7 +78,7 @@ There are several files which I've learned from Udacity data analysis NanoDegree
         └── doc
             └── wikipedia_web_rawl.ipynb
 
-10 directories, 33 files
+14 directories, 55 files
 ```
 
 ## Code
